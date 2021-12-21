@@ -44,10 +44,10 @@ iconMutedFilename := A_ScriptDir . "\MicMuted.ico"	; Filename for icon shown whi
 iconMutedResource := 1	; Resource ID for icon shown while muted
 iconUnmutedFilename := A_ScriptDir . "\MicUnmuted.ico"	; Filename for icon shown while unmuted
 iconUnmutedResource := 1	; Resource ID for icon shown while munuted
-#NoTrayIcon	; Hide our tray icon until we determine current mute state
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Compiler directives
+#NoTrayIcon	; Hide our tray icon until we determine current mute state
 ;@Ahk2Exe-AddResource MicUnmuted.ico, MICUNMUTED
 ;@Ahk2Exe-AddResource MicMuted.ico, MICMUTED
 ;@Ahk2Exe-SetMainIcon MicUnmuted.ico
