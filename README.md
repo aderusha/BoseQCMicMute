@@ -1,6 +1,10 @@
 # Bose QC Mic Mute
 
-## Control Windows microphone mute with the multi-function button on Bose QuietComfort headphones
+### Control Windows microphone mute with the multi-function button on Bose QuietComfort headphones
+
+---
+
+## How the Bose QuietComfort line handles media controls
 
 Bose QuietComfort models 35, 35ii, and 45 each have three buttons on the bottom of the right ear cup.  The top and bottom buttons control volume up and down in all modes.  The function of the middle "multi-function button" (MFB) depends on the active bluetooth profile.
 
@@ -15,6 +19,8 @@ When attached to a Windows desktop via bluetooth, this button will typically iss
 | Triple press MFB       | Previous track |
 
 ---
+
+## How the Bose QC Mic Mute software works
 
 This program will catch presses of the MFB and control the mute status on **all attached recording devices**.  This includes your webcam or any other audio recording devices, when triggered from the headset all currently-active audio recording devices will be muted and unmuted.
 
@@ -35,7 +41,14 @@ Changes in mute status will alert the user in the following ways:
 
 ---
 
+## How to install Bose QC Mic Mute
+
+1. Download the latest release
+2. Unzip to a folder and double-click `BoseQCMicMute.exe` to launch
+
+---
+
 ## Additional notes
 
 * The headphones send media keys which are sometimes captured by media player software.  That behavior can prevent this tool from working.  [See this article](https://www.askvg.com/fix-media-keys-not-working-in-spotify-itunes-and-other-media-players/) for details on how you might deal with this.
-* If you want to modify the source code, keep in mind that this is developed with [AutoHotkey v2](https://www.autohotkey.com/v2/).  The code will not work with v1 (which doesn't support modern sound interface access), so make sure you grab the right version
+* If you want to modify the source code, keep in mind that this is developed with [AutoHotkey v2](https://www.autohotkey.com/v2/).  The code will not work with v1 (which doesn't support modern sound interface access), so make sure you grab the right version.
