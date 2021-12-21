@@ -2,7 +2,7 @@
 
 ## Control Windows microphone mute with the multi-function button on Bose QuietComfort headphones
 
-Bose QuietComfort models 35, 35ii, and 45 each have three buttons on the bottom of the right ear cup.  The top and bottom buttons control volume up and down in all modes.  The function of the middle "multi-function" button depends on the active bluetooth profile.
+Bose QuietComfort models 35, 35ii, and 45 each have three buttons on the bottom of the right ear cup.  The top and bottom buttons control volume up and down in all modes.  The function of the middle "multi-function button" (MFB) depends on the active bluetooth profile.
 
 ![Bose QC buttons](https://github.com/aderusha/BoseQCMicMute/blob/main/images/qcbuttons.png?raw=true)
 
@@ -16,7 +16,7 @@ When attached to a Windows desktop via bluetooth, this button will typically iss
 
 ---
 
-This program will catch presses of the Multi-function button and control the mute status on **all attached recording devices**.
+This program will catch presses of the MFB and control the mute status on **all attached recording devices**.  This includes your webcam or any other audio recording devices, when triggered from the headset all currently-active audio recording devices will be muted and unmuted.
 
 | Button press           | Action                 |
 |------------------------|------------------------|
