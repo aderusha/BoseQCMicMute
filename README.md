@@ -53,3 +53,11 @@ Changes in mute status will alert the user in the following ways:
 * **WINDOWS DEFENDER VIRUS DETECTED** - This is common for applications developed with AutoHotKey as it needs to monitor keyboard activity to catch the media keys being pressed.  That makes it look like a keylogger and may throw an error on download or when extracting the files.  If you don't trust me, just [download the source](https://github.com/aderusha/BoseQCMicMute/releases) and run it with [AutoHotkey v2](https://www.autohotkey.com/v2/).
 * The headphones send media keys which are sometimes captured by media player software.  That behavior can prevent this tool from working.  [See this article](https://www.askvg.com/fix-media-keys-not-working-in-spotify-itunes-and-other-media-players/) for details on how you might deal with this.
 * If you want to modify the source code, keep in mind that this is developed with [AutoHotkey v2](https://www.autohotkey.com/v2/).  The code will not work with v1 (which doesn't support modern sound interface access), so make sure you grab the right version.
+
+---
+
+## [Buy me a coffee](https://www.buymeacoffee.com/gW5rPpsKR)
+
+[![Buy me a coffee](https://www.buymeacoffee.com/assets/img/custom_images/black_img.png)](https://www.buymeacoffee.com/gW5rPpsKR)
+
+This project is powered by coffee.  [I might get a little weird about it at times](https://github.com/aderusha/RoastLearner), but it's not much of a stretch to suggest that coffee both powers and consumes a fair portion of my mental energy.  [Hook me up if you think this project is cool](https://www.buymeacoffee.com/gW5rPpsKR). Even a buck or three is appreciated - Thanks!
