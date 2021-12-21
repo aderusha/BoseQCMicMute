@@ -33,4 +33,9 @@ Changes in mute status will alert the user in the following ways:
 * A Windows notification is briefly shown
 * System tray icon and icon hover text (white icon = mic active, black icon = mic muted)
 
-Developed with [AutoHotkey v2](https://www.autohotkey.com/v2/)
+---
+
+## Additional notes
+
+* The headphones send media keys which are sometimes captured by media player software.  That behavior can prevent this tool from working.  [See this article](https://www.askvg.com/fix-media-keys-not-working-in-spotify-itunes-and-other-media-players/) for details on how you might deal with this.
+* If you want to modify the source code, keep in mind that this is developed with [AutoHotkey v2](https://www.autohotkey.com/v2/).  The code will not work with v1 (which doesn't support modern sound interface access), so make sure you grab the right version
