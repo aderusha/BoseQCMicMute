@@ -1,6 +1,6 @@
 # Bose QC Mic Mute
 
-## Control Windows microphone mute with the "action" button on Bose QuietComfort headphones
+## Control Windows microphone mute with the multi-function button on Bose QuietComfort headphones
 
 Bose QuietComfort models 35, 35ii, and 45 each have three buttons on the bottom of the right ear cup.  The function of these buttons depends on the active bluetooth profile. When attached to a Windows desktop via bluetooth, those buttons will typically function as shown below.
 
