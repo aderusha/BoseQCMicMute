@@ -39,20 +39,34 @@ Changes in mute status will alert the user in the following ways:
 * A Windows notification is briefly shown
 * System tray icon and icon hover text (white icon = mic active, black icon = mic muted)
 
+Audio and visual notifications can be enabled or disabled by right-clicking on the tray icon.
+
 ---
 
 ## How to install Bose QC Mic Mute
 
-1. Download the latest release
-2. Unzip to a folder and double-click `BoseQCMicMute.exe` to launch
+1. Download `BoseQCMicMute.exe` and run it.  That's it!
+
+---
+
+## Changelog
+
+### v1.0.0
+* Initial release
+
+### v1.1.0 
+* Single-file .exe, just download the file and run it wherever!
+* Add options to enable or disable audio and visual alerts
+* More aggressive hooking and re-hooking of media keys
 
 ---
 
 ## Additional notes
 
-* **WINDOWS DEFENDER VIRUS DETECTED** - This is common for applications developed with AutoHotKey as it needs to monitor keyboard activity to catch the media keys being pressed.  That makes it look like a keylogger and may throw an error on download or when extracting the files.  If you don't trust me, just [download the source](https://github.com/aderusha/BoseQCMicMute/releases) and run it with [AutoHotkey v2](https://www.autohotkey.com/v2/).
-* The headphones send media keys which are sometimes captured by media player software.  That behavior can prevent this tool from working.  [See this article](https://www.askvg.com/fix-media-keys-not-working-in-spotify-itunes-and-other-media-players/) for details on how you might deal with this.
+* **WINDOWS DEFENDER VIRUS DETECTED** - This is common for applications developed with AutoHotKey as it needs to monitor keyboard activity to catch the media keys being pressed.  That makes it look like a keylogger and may throw an error on download.  If you don't trust me, just [download the source](https://github.com/aderusha/BoseQCMicMute/source) and compile it with [AutoHotkey v2](https://www.autohotkey.com/v2/).
+* The headphones send media keys which are sometimes captured by media player software.  That behavior can prevent this tool from working.  [See this article](https://www.askvg.com/fix-media-keys-not-working-in-spotify-itunes-and-other-media-players/) for details on how you might deal with this.  Version 1.1 includes several new features to address this issue.
 * If you want to modify the source code, keep in mind that this is developed with [AutoHotkey v2](https://www.autohotkey.com/v2/).  The code will not work with v1 (which doesn't support modern sound interface access), so make sure you grab the right version.
+* The AHK script attempts to load icon resources from itself, which will only work when running as the compiled .exe.  Running as an AHK2 script without compiling will not work.
 
 ---
 
